@@ -40,6 +40,12 @@ app/src/main/
         └── strings.xml                    # Zasoby tekstowe
 ```
 
+## Zrzuty ekranu aplikacji
+### Menu główne
+![Screenshot mojej aplikacji](image.png)
+### Historia pomiarów
+![Screenshot mojej aplikacji](history.png)
+
 ## Przepływ danych w aplikacji
 
 ```
