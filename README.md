@@ -217,8 +217,6 @@ fun getAccelerometerUpdates(): Flow<AccelerometerData>
 Aplikacja wymaga następujących uprawnień (zdefiniowanych w `AndroidManifest.xml`):
 - `ACCESS_FINE_LOCATION`: Dostęp do precyzyjnej lokalizacji
 - `ACCESS_COARSE_LOCATION`: Dostęp do przybliżonej lokalizacji
-- `INTERNET`: Dostęp do sieci (dla przyszłych rozszerzeń)
-- `CAMERA`: Dostęp do aparatu (przygotowane dla przyszłych rozszerzeń)
 
 ## Struktura bazy danych
 
@@ -234,6 +232,4 @@ Aplikacja wymaga następujących uprawnień (zdefiniowanych w `AndroidManifest.x
 | accelerationX | Float? | Przyśpieszenie oś X (akcelerometr) |
 | accelerationY | Float? | Przyśpieszenie oś Y (akcelerometr) |
 | accelerationZ | Float? | Przyśpieszenie oś Z (akcelerometr) |
-| photoPath | String? | Ścieżka do zdjęcia (przyszłe rozszerzenie) |
-| notes | String? | Notatki (przyszłe rozszerzenie) |
 
